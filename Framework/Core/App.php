@@ -27,6 +27,7 @@ class App
         $request = $this->reg->get($requesttype);
         $appcontroller = new AppController();
         $ctrl = $appcontroller->getController($request);
+        var_dump($ctrl);
         //$cmd->execute($request);
         //$view = $appcontroller->getView($request);
         //$view->render($request);

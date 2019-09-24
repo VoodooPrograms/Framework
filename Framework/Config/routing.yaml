@@ -1,0 +1,19 @@
+#
+#
+#
+routing:
+    homepage:
+        path: /
+        action: Framework\Controllers\SimpleController
+    blog:
+        path: /blog
+        action: Framework\Controllers\BlogController
+    blog_article:
+        path: /blog/article/*
+        action: Framework\Controllers\SimpleController
+    blog_page:
+        path: /blog/[page]/*
+        action: Framework\Controller\SimpleController
+    admin:
+        path: /admin
+        action: Action4

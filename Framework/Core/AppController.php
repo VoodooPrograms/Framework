@@ -4,8 +4,6 @@
 namespace Framework\Core;
 
 
-use Framework\Controllers\SimpleController;
-
 class AppController
 {
     private $setmgr = null;

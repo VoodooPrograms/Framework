@@ -11,7 +11,7 @@ class HttpRequest extends Request implements Forwarder
 
     protected function launch()
     {
-        // TODO: Implement launch() method.
+        $this->setPath($_SERVER["REQUEST_URI"]);
     }
 
     public function forward(string $path): void
