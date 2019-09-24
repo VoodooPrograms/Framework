@@ -1,0 +1,16 @@
+#
+#
+#
+routing:
+    homepage:
+        path: /
+        action: Framework\Controllers\SimpleController
+    blog:
+        path: /blog
+        action: Action2
+    blog_article:
+        path: /article
+        action: Action3
+    admin:
+        path: /admin
+        action: Action4

@@ -1,0 +1,13 @@
+settings:
+    core:
+        dsn: sqlite:/home/bartosz/PhpstormProjects/Zandstra/CorporateProject/ProjectDB
+        templatepath: /home/bartosz/PhpstormProjects/Zandstra/CorporateProject/DomainModel/views/
+        viewcomponentfile: /home/bartosz/PhpstormProjects/Zandstra/CorporateProject/DomainModel/data/config.xml
+    database:
+        host:
+        password:
+        engine:
+    relative_paths:
+        -
+    absolute_paths:
+        -
