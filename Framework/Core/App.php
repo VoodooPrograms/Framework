@@ -28,7 +28,7 @@ class App
         $appcontroller = new AppController();
         $ctrl = $appcontroller->getController($request);
         var_dump($ctrl);
-        //$cmd->execute($request);
+        $ctrl->execute($request);
         //$view = $appcontroller->getView($request);
         //$view->render($request);
     }

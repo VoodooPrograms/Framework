@@ -10,7 +10,7 @@ abstract class Controller
 
     public function execute(Request $request){
         $status = $this->doExecute($request);
-        $request->setCmdStatus($status);
+        $request->setStatus($status);
     }
 
     abstract public function doExecute(Request $request): int;
